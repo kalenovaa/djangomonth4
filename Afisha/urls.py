@@ -21,6 +21,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('about_us/', views.about_us),
     path('date_now/', views.date_now),
+    path('all_films/', views.all_films),
+    path('all_films/<int:id>/', views.films_detail),
 
 
 ]
